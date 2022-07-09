@@ -241,8 +241,8 @@ header{
   
 
 
-          
-          /* Extra small devices (phones, 430px and down) */
+
+ /* Extra small devices (phones, 660px and down) */
 @media only screen and (max-height: 660px){
     .robot svg {
         position: absolute;
