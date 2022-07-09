@@ -238,18 +238,50 @@ header{
           #hover ellipse{
           transform-origin:center center; 
           animation:shadow 1.1s ease-in-out 0s infinite alternate}
-  
+
+
+ /* Extra small devices (phones, 550px and down) */
+ @media only screen and (max-height: 550px){
+    .robot svg {
+        top: 20%;
+        margin-left: -300px;
+        transform: scale(0.3) translate(0, -100%);
+      }
+
+    .flex {
+        padding-bottom: 20px;
+    }
+
+    .flex h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .flex h2{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .flex button{
+        font-size: 15px;
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+
+}
 
 
 
  /* Extra small devices (phones, 660px and down) */
-@media only screen and (max-height: 750px){
+@media only screen and (max-height: 660px){
     .robot svg {
         top: 20%;
         margin-left: -300px;
         transform: scale(0.4) translate(0, -100%);
       }
+
 }
+
 
 
 /* Extra small devices (phones, 380px and down) */
